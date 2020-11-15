@@ -14,6 +14,7 @@
 		20A6DFB925612A8B00CBE6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A6DFB825612A8B00CBE6F9 /* Assets.xcassets */; };
 		20A6DFC725612A8B00CBE6F9 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6DFC625612A8B00CBE6F9 /* PitchPerfectTests.swift */; };
 		20A6DFD225612A8B00CBE6F9 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6DFD125612A8B00CBE6F9 /* PitchPerfectUITests.swift */; };
+		20A6E0012561518400CBE6F9 /* AudioPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		20A6DFCD25612A8B00CBE6F9 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A6DFD125612A8B00CBE6F9 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		20A6DFD325612A8B00CBE6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				20A6DFB525612A8700CBE6F9 /* Main.storyboard */,
 				20A6DFB825612A8B00CBE6F9 /* Assets.xcassets */,
 				20A6DFBD25612A8B00CBE6F9 /* Info.plist */,
+				20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A6E0012561518400CBE6F9 /* AudioPlaybackViewController.swift in Sources */,
 				20A6DFB425612A8700CBE6F9 /* AudioRecordingViewController.swift in Sources */,
 				20A6DFB025612A8700CBE6F9 /* AppDelegate.swift in Sources */,
 				20A6DFB225612A8700CBE6F9 /* SceneDelegate.swift in Sources */,
