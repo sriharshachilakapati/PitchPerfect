@@ -15,6 +15,7 @@
 		20A6DFC725612A8B00CBE6F9 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6DFC625612A8B00CBE6F9 /* PitchPerfectTests.swift */; };
 		20A6DFD225612A8B00CBE6F9 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6DFD125612A8B00CBE6F9 /* PitchPerfectUITests.swift */; };
 		20A6E0012561518400CBE6F9 /* AudioPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */; };
+		20CF7A89256425C6006B85D4 /* AudioPlaybackViewController+Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF7A88256425C6006B85D4 /* AudioPlaybackViewController+Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		20A6DFD125612A8B00CBE6F9 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		20A6DFD325612A8B00CBE6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackViewController.swift; sourceTree = "<group>"; };
+		20CF7A88256425C6006B85D4 /* AudioPlaybackViewController+Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioPlaybackViewController+Sound.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				20A6DFB825612A8B00CBE6F9 /* Assets.xcassets */,
 				20A6DFBD25612A8B00CBE6F9 /* Info.plist */,
 				20A6E0002561518400CBE6F9 /* AudioPlaybackViewController.swift */,
+				20CF7A88256425C6006B85D4 /* AudioPlaybackViewController+Sound.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				20A6E0012561518400CBE6F9 /* AudioPlaybackViewController.swift in Sources */,
 				20A6DFB425612A8700CBE6F9 /* AudioRecordingViewController.swift in Sources */,
 				20A6DFB025612A8700CBE6F9 /* AppDelegate.swift in Sources */,
+				20CF7A89256425C6006B85D4 /* AudioPlaybackViewController+Sound.swift in Sources */,
 				20A6DFB225612A8700CBE6F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +432,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXSRK6567B;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,6 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goharsha.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,7 +453,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXSRK6567B;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goharsha.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
