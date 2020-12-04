@@ -35,6 +35,10 @@ class AudioPlaybackViewController: UIViewController {
         setupAudio()
     }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        stopAudio()
+    }
+
     @IBAction func onPlayButtonClicked(_ sender: UIButton) {
         lastActivePlayButton = sender
         lastActivePlayButton?.isEnabled = false
